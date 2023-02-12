@@ -19,6 +19,7 @@
         <h3 class="text-3xl mb-4 font-medium">Please Login</h3>
         <div>
           <input
+            id="user-email"
             type="text "
             class="w-3/4 block mb-3 px-3 rounded-sm"
             placeholder="Your Email address"
@@ -27,16 +28,24 @@
             class="w-3/4 block px-3 rounded-sm"
             type="password"
             name=""
-            id=""
+            id="user-pass"
             placeholder="Your Password"
           />
           <button
+            id="btn-submit"
             class="px-8 py-2 mt-3 text-white bg-amber-600 rounded-sm text-sm font-medium hover:bg-sky-400"
           >
-            Submit
+            Login
+          </button>
+          <button
+            id="btn-submit"
+            class="px-8 py-2 mt-3 text-white bg-amber-600 rounded-sm text-sm font-medium hover:bg-sky-400"
+          >
+            Login as a Guest
           </button>
         </div>
       </section>
     </main>
+    <script src="js/app.js"></script>
   </body>
 </html>
