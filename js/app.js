@@ -1,5 +1,5 @@
 const btnSubmit = document.getElementById("btn-submit");
-
+const btnGuestLogin = document.getElementById("btn-guest");
 btnSubmit.addEventListener("click", () => {
   const userEmailFiled = document.getElementById("user-email");
   const userPassFiled = document.getElementById("user-pass");
@@ -11,4 +11,7 @@ btnSubmit.addEventListener("click", () => {
   } else {
     window.alert("Invalid user credential");
   }
+});
+btnGuestLogin.addEventListener("click", () => {
+  window.location.href = "bank.html";
 });
